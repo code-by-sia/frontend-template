@@ -1,0 +1,24 @@
+{
+  "name": "frontend-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "source": "src/index.html",
+  "repository": "git@github.com:code-by-sia/frontend-template.git",
+  "author": "Siamand <me@siamand.cc>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-svg-react": "^2.10.2",
+    "autoprefixer": "^10.4.16",
+    "parcel": "^2.10.2",
+    "postcss": "^8.4.31",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.5"
+  },
+  "scripts": {
+    "start": "parcel"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
