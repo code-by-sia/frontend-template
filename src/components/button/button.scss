@@ -1,0 +1,11 @@
+button.button {
+    @apply inline-flex px-2 py-1 bg-white rounded shadow ;
+
+    &:hover {
+        @apply shadow-lg;
+    }   
+
+    &:active {
+        @apply shadow-sm;
+    }
+}
